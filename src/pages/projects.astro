@@ -1,0 +1,50 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>Projects</h1>
+      <p>Here are some projects that I am currently working on.</p>
+      <div class="container">
+        <div class="project">
+          <h2>Cargo</h2>
+          <p>
+            Cargo provides a secure and reliable way for users to manage their
+            application installations and configurations, including the ability
+            to work with private repositories.
+          </p>
+          <a href="https://github.com/JustJordanT/cargo" target="_blank"
+            >GitHub Repository</a
+          >
+        </div>
+        <br />
+        <div class="project">
+          <h2>Fungus</h2>
+          <p>
+            Project Fungus aims to create a GitOps tool similar to ArgoCD but
+            specifically designed for Terraform infrastructure deployments. The
+            tool will continuously monitor designated repositories for changes
+            in the Terraform code, and upon detecting changes, it will
+            automatically apply those changes to deploy and manage the
+            corresponding infrastructure. This streamlined approach will enhance
+            collaboration, version control, and automated deployment within
+            infrastructure management using GitOps principles.
+          </p>
+          <a href="https://github.com/JustJordanT/Fungus" target="_blank"
+            >GitHub Repository</a
+          >
+        </div>
+        <!-- Add more project sections as needed -->
+      </div>
+    </main>
+  </body>
+</html>
