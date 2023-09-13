@@ -1,0 +1,23 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+     <h1>Blog Migration in Progress</h1>
+        <br/>
+        <p style="text-align:center;">
+             <img src="https://media.tenor.com/-KdqIremkc8AAAAC/andy-chris-pratt.gif" alt="gif-sorry" />
+        </p>
+         <p>I am currently migrating my blog to a new location. In the meantime, you can access the old blog at <a href="http://blog.justjordant.com" target="_blank">blog.justjordant.com</a>.</p>
+    </main>
+  </body>
+</html>
