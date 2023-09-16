@@ -6,7 +6,7 @@ const withNextra = require('nextra')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'dist',
+  // any configs you need
 }
 
 module.exports = withNextra(nextConfig)
