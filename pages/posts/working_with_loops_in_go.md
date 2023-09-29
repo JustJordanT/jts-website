@@ -1,6 +1,6 @@
 ---
 title: "Mastering Go For Loops: A Comprehensive Guide"
-date: 2023/9/27
+date: 2023/9/29
 description: "Working with go for loops"
 tag: web development, golang, software engineering
 author: You
