@@ -6,9 +6,9 @@ tag: web development, golang, software engineering
 author: You
 ---
 
-# Introduction
+![](https://images.unsplash.com/photo-1504308805006-0f7a5f1f0f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9vcHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60)
 
-Go, also known as Golang, is a powerful and efficient programming language that has gained popularity in recent years due to its simplicity and performance. One of the fundamental control flow structures in Go, and indeed in many programming languages, is the "for" loop. In this blog post, we will explore the different aspects of Go for loops, from the basic syntax to more advanced use cases, and provide examples to help you master this essential tool in your programming arsenal.
+# Introduction
 
 ### The Basic Syntax
 
@@ -80,7 +80,7 @@ The `range` keyword is used to iterate over the elements of a slice or an array,
 
 #### Infinite Loops
 
-You can create an infinite loop by omitting the initialization, condition, and post statements. Use caution when creating infinite loops, as they can lead to program hangs if not controlled properly. For example:
+In the world of go we don't have a `while` loop; but we can create an infinite loop by omitting the initialization, condition, and post statements. Use caution when creating infinite loops, as they can lead to program hangs if not controlled properly. For example:
 
 ```go
 for {
