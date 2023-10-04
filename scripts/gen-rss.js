@@ -21,6 +21,11 @@ async function generate() {
       )
       const frontmatter = matter(content)
 
+        // Convert the Markdown content to HTML
+        const markdownContent = frontmatter.content
+        const processedContent = await remark().use(html).process(markdownContent)
+        const bodyContent = processedContent.toString()
+
       feed.item({
         title: frontmatter.data.title,
         url: '/posts/' + name.replace(/\.mdx?/, ''),
@@ -28,6 +33,7 @@ async function generate() {
         description: frontmatter.data.description,
         categories: frontmatter.data.tag.split(', '),
         author: frontmatter.data.author,
+          content: bodyContent
       })
     })
   )
