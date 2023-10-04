@@ -3,7 +3,7 @@ title: "Exploring Interfaces in Go: A Versatile Tool for Polymorphism"
 date: 2023/9/26
 description: "Working with go Interfaces"
 tag: web development, golang, software engineering
-author: You
+author: Jordan Taylor
 ---
 ![](https://cdn-images-1.medium.com/max/1024/0*H4e-fr_2Dp_w5-ZV)
 _Photo by Barn Images on Unsplash_
