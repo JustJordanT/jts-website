@@ -2,7 +2,7 @@
 author: Jordan Taylor
 pubDatetime: 2023-10-8T23:40:00Z
 title: Mastering Go For Loops - A Comprehensive Guide
-postSlug: go-loopa
+postSlug: go-loops
 featured: false
 draft: false
 tags:
