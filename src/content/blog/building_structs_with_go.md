@@ -1,9 +1,15 @@
 ---
-title: "Building Go Structs: An Illustrated Guide with Toy Creation"
-date: 2023/9/12
-description: "Going through go structs"
-tag: web development, golang
 author: Jordan Taylor
+pubDatetime: 2023-09-12T15:22:00Z
+title: Building Go Structs - An Illustrated Guide with Toy Creation
+postSlug: go-structs
+featured: false
+draft: false
+tags:
+  - go
+  - software engineering
+description:
+ Going through go structs
 ---
 
 ![pic](https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2431&q=80)
