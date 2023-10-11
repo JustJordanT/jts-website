@@ -6,7 +6,7 @@ postSlug: c-sharp-entity-model-dto
 featured: false
 draft: false
 tags:
-  - c#
+  - c-sharp
   - database-modeling
   - oop
   - software engineering
