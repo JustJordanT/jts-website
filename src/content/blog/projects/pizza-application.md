@@ -17,6 +17,9 @@ description:
 
 ## Pizza API Project Summary
 
+![image](https://github.com/JustJordanT/jts-website/assets/38886930/4736cb23-900c-47c5-a3e8-10a6a570062f)
+
+
 ### Purpose
 The [project](https://github.com/JustJordanT/pizza-byte) serves as an API for a pizza ordering system, allowing customers to create accounts and place orders for pizzas.
 
