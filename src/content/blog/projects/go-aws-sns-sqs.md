@@ -16,7 +16,20 @@ description:
 
 # Project using Go in AWS, SNS and SQS
 
-![img.png](./img.png)
+This [project](https://github.com/JustJordanT/communication-go-aws-sns-sqs/tree/master) aims to provide a minimalistic yet comprehensive guide to integrating AWS SNS and SQS services with a Go application. It serves as a boilerplate codebase and a tutorial for developers who are new to these AWS services or want to integrate them into their existing Go projects.
 
-## Project Summary:
-This project demonstrates a minimal setup to use AWS SNS and SQS with Go. It includes examples for publishing messages to an SNS topic, subscribing an SQS queue to that topic, and consuming messages from the queue.
+## Key Features:
+
+**Publishing Messages to SNS Topic:** The project includes a Go module that demonstrates how to publish messages to an AWS SNS topic. This is useful for sending notifications or triggering other AWS services.
+
+**Subscribing SQS to SNS Topic:** Another module shows how to automatically subscribe an SQS queue to an SNS topic. This ensures that messages published to the SNS topic are forwarded to the SQS queue.
+
+**Consuming Messages from SQS:** Finally, the project includes a consumer module written in Go that polls the SQS queue and processes messages.
+
+## Technical Stack
+
+Programming Language: Go
+
+AWS Services: SNS, SQS
+
+Other Libraries: AWS SDK for Go
