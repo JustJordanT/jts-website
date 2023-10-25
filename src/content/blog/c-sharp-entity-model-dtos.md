@@ -22,13 +22,14 @@ When building applications in C#, especially those that interact with databases 
 
 ## Entities / Models
 
-Entities or Models are classes that directly represent database tables. They serve as the primary objects that your application will work with when interacting with a database. In the context of Object-Relational Mapping (ORM) frameworks like Entity Framework, these are often referred to as "Entity Classes."
+Entities are classes that directly represent database tables. They serve as the primary objects that your application will work with when interacting with a database. In the context of Object-Relational Mapping (ORM) frameworks like Entity Framework, these are often referred to as "Entity Classes."
 
 Here's a simple example:
 
 ```csharp
 public class User
 {
+    [Key]
     public int Id { get; set; }
     public string Username { get; set; }
     public string Email { get; set; }
@@ -38,9 +39,9 @@ public class User
 
 These classes often include annotations or configurations that specify how they map to the database schema. They are the backbone of your application, holding the data that your application processes.
 
-## Contracts / DTOs (Data Transfer Objects)
+## Contracts, Models, DTOs (Data Transfer Objects)
 
-DTOs are used to transfer data between different layers of your application or even between different applications. They are particularly useful when you're working with APIs. When you receive a JSON object from a client or send a JSON object to a client, you often use a DTO to represent this data.
+DTOs, Models are used to transfer data between different layers of your application or even between different applications. They are particularly useful when you're working with APIs. When you receive a JSON object from a client or send a JSON object to a client, you often use a DTO to represent this data.
 
 Here's an example:
 
