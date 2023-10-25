@@ -20,7 +20,7 @@ description:
 
 When building applications in C#, especially those that interact with databases and APIs, you'll often encounter terms like "Entities," "Models," and "DTOs" (Data Transfer Objects). Understanding these terms and how they fit into your application architecture is crucial for building scalable, maintainable, and robust software. In this blog post, we'll delve into what these terms mean and why they are important.
 
-## Entities / Models
+## Entities
 
 Entities are classes that directly represent database tables. They serve as the primary objects that your application will work with when interacting with a database. In the context of Object-Relational Mapping (ORM) frameworks like Entity Framework, these are often referred to as "Entity Classes."
 
