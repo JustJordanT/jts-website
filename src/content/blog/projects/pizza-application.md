@@ -23,6 +23,10 @@ description:
 ### Purpose
 The [project](https://github.com/JustJordanT/pizza-byte) serves as an API for a pizza ordering system, allowing customers to create accounts and place orders for pizzas. I generally like to use this a framework for testing out and learning new langueges. This allows me work with differnt frameworks around web services so I can compare and constast the two and even pull things away from I learn from one versus the other. I am current working on this with .NET then I will be doing the exact same project in Go and then I wanted to do this again in Kotlin. 
 
+I am using different braches to scope out different langueges that I am working on; you can find the list of braches below.
+
+- [dotnet-aws-modular-monolith](https://github.com/JustJordanT/pizza-byte/tree/dotnet-aws-modular-monolith)
+
 ### Database
 - Uses AWS Aurora DB to store customer accounts and order records.
 
