@@ -4,7 +4,7 @@ pubDatetime: 2023-10-17T16:00:00Z
 title: Modeling Users and Posts with C# and Entity Framework Core in ASP.NET Core Web API
 postSlug: user-post-model
 featured: false
-draft: true
+draft: false
 tags:
   - cSharp
   - database-modeling
